@@ -44,7 +44,7 @@ namespace GCSync {
 
         //manually trigger synchronization
         private void BbiSynchronize_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
-            this.gcSyncComponent.Sync();
+            this.gcSyncComponent.Synchronize();
         }
 
         //assign a selected calendar ID to the component's CalendarID property
@@ -54,7 +54,7 @@ namespace GCSync {
             CalendarListEntry selectedCalendar = this.calendarList.Items.FirstOrDefault(x => x.Summary == selectedCalendarSummary);
             this.activeCalendarId = selectedCalendar.Id;
             this.gcSyncComponent.CalendarId = selectedCalendar.Id;
-            this.gcSyncComponent.Sync(); 
+            this.gcSyncComponent.Synchronize(); 
             UpdateBbiAvailability();
         }
 
