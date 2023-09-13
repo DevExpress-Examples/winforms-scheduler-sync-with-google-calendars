@@ -12,3 +12,8 @@ Read the following [article](https://developers.google.com/calendar/quickstart/d
 You should also remove all Google assemblies referenced in the project. Then go to **Project > Manage NuGet Packages...** and remove installed packages. To quickly re-install these packages and reference required libraries, drop the `DXGoogleCalendarSync` component from the Toolbox onto the form and click **Accept** in the appeared dialog. After all packages are successfully installed, you can remove the `DXGoogleCalendarSync` component.
 
 Read the following help topic for additional information and instructions: [Synchronization With Google Calendars](https://documentation.devexpress.com/WindowsForms/120605/Controls-and-Libraries/Scheduler/Export-and-Import/Synchronization-With-Google-Calendars).
+
+
+## See Also
+
+* [Synchronize User Appointments with Microsoft 365 Calendars](https://github.com/DevExpress-Examples/winforms-scheduler-synchronize-appointments-with-outlook-365)
